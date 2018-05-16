@@ -2484,7 +2484,7 @@ if (typeof jQuery != 'undefined') {
 								// check if the video is suddenly not really fullscreen
 								if (absDiff > marginError) {
 									// manually exit
-									t.exitFullScreen();
+								//	t.exitFullScreen();
 								} else {
 									// test again
 									setTimeout(checkFullscreen, 500);
